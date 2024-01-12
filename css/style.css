@@ -274,16 +274,12 @@ header nav ul li {
   font-size: 16px;
 }
 
-.home-profile {
+.landing-page {
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
-  /*box-sizing: border-box;*/
-  /*text-align: justify;*/
   position: absolute;
-  top: 40%;
+  top: 50%;
   right: 50%;
-
   transform: translate(50%,-50%);
 }
 
@@ -291,17 +287,14 @@ header nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*padding-top: 100px;*/
 }
 
 .profile-logo {
-  width: 100px; /* Adjust as needed */
-  height: 100px; /* Adjust as needed */
-  /*border-radius: 50%; !* This makes the image circular *!*/
-  /*border: 2px solid black;*/
+  width: 100px;
+  height: 100px;
 }
 
-.details {
+.landing-page-details {
   text-align: center;
 }
 
@@ -344,4 +337,79 @@ a {
   text-align: center;
 }
 
+/* Profile Section */
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  margin: 100px;
+  background-color: rgba(211, 211, 211, 0.3);
+}
 
+.profile img {
+  max-width: 50%;
+  max-height: 400px;
+}
+
+.profile details {
+  max-width: 600px;
+  text-align: justify;
+  margin: 50px;
+}
+
+.profile h3 {
+  font-family: 'inter',sans-serif;
+  font-size: 24px;
+  color: #008080;
+  margin-left: 40px;
+}
+
+.profile p {
+  font-family: 'inter',sans-serif;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* Nexxtgen Section */
+.nexxtgen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  border-bottom: 2px solid #ccc;
+}
+
+.nexxtgen img {
+  max-width: 50%;
+  max-height: 400px;
+  order: 2;
+}
+
+.nexxtgen details {
+  max-width: 600px;
+  text-align: left;
+  margin-right: 30px;
+}
+
+.nexxtgen h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  white-space: normal;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1;
+}
+
+.nexxtgen h3 {
+  color: #FDC435;
+}
+
+.nexxtgen p {
+  font-family: "Arial";
+  font-size: 16px;
+  white-space: normal;
+  color: #828282;
+  margin-right: 40px;
+}
