@@ -371,6 +371,51 @@ a {
   margin-right: 40px;
 }
 
+.skills-container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Skills */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  /*max-width: 800px;*/
+  margin: 100px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icon img {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Nexxtgen Section */
 .nexxtgen {
   display: flex;
