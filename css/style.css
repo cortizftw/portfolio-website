@@ -337,6 +337,148 @@ a {
   text-align: center;
 }
 
+/* Registration Form */
+.registration-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 80%;
+  max-width: 500px;
+  font-family: 'Inter', sans-serif;
+}
+
+.registration-form h2 {
+  font-family: 'inter',sans-serif;
+  font-size: 24px;
+  color: #008080;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.registration-form form label,
+.registration-form form input,
+.registration-form form select {
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.registration-form form textarea {
+  width: 80%;
+  height: 80px;
+  border: 1px solid #ccc;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  flex: 1;
+  text-align: left;
+}
+
+.form-group input {
+  flex: 2;
+  border: 1px solid #ccc;
+}
+
+.close-button {
+  display: block;
+  margin: 0 auto 30px;
+  font-family: 'inter', sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid #008080;
+  border-radius: 5px;
+  background: #008080;
+  cursor: pointer;
+}
+
+#country {
+  border: 1px solid #ccc;
+}
+
+#about {
+  font-family: 'inter',sans-serif;
+}
+
+/* Login Form*/
+.login-form {
+  display: none; /* Initially hide the login form */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 80%;
+  max-width: 500px;
+  font-family: 'Inter', sans-serif;
+}
+
+.login-form h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  color: #008080;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form form label,
+.login-form form input {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.login-form form input[type="text"],
+.login-form form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form form .submit-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #008080;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-form form .submit-button:hover {
+  background-color: #005050;
+}
+
+.login-form form .close-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ccc;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-form form .close-button:hover {
+  background-color: #999;
+}
+
+
 /* Profile Section */
 .profile {
   display: flex;
@@ -377,6 +519,10 @@ a {
   text-align: center;
 }
 
+.skills-container h2 {
+  font-family: 'inter',sans-serif;
+}
+
 /* Skills */
 .skills {
   display: grid;
@@ -398,63 +544,23 @@ a {
   height: 50px; /* Adjust the height as needed */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Nexxtgen Section */
-.nexxtgen {
+.footer-details {
   display: flex;
-  align-items: center;
   justify-content: center;
-  text-align: center;
-  margin-bottom: 100px;
-  margin-top: 100px;
-  border-bottom: 2px solid #ccc;
+  align-items: center;
+  background-color: #008080;
+  color: white;
+  padding: 5px;
+  bottom: 0;
+  width: 100%;
 }
 
-.nexxtgen img {
-  max-width: 50%;
-  max-height: 400px;
-  order: 2;
-}
 
-.nexxtgen details {
-  max-width: 600px;
-  text-align: left;
-  margin-right: 30px;
-}
 
-.nexxtgen h2 {
-  font-size: 30px;
-  margin-bottom: 10px;
-  white-space: normal;
-  font-family: 'Times New Roman', Times, serif;
-  line-height: 1;
-}
 
-.nexxtgen h3 {
-  color: #FDC435;
-}
 
-.nexxtgen p {
-  font-family: "Arial";
-  font-size: 16px;
-  white-space: normal;
-  color: #828282;
-  margin-right: 40px;
-}
+
+
+
+
+
