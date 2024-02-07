@@ -257,7 +257,6 @@ textarea {
 
 header nav {
   display: flex;
-  /*background-color: #008080;*/
   justify-content: flex-end;
   padding: 10px;
 }
@@ -308,8 +307,8 @@ h3 {
 }
 
 a {
-  text-decoration: none; /* Remove underline */
-  color: #008080; /* Set the desired text color */
+  text-decoration: none;
+  color: #008080;
 }
 
 .social-button {
@@ -412,7 +411,7 @@ a {
 
 /* Login Form*/
 .login-form {
-  display: none; /* Initially hide the login form */
+  display: none;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -528,7 +527,6 @@ a {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
-  /*max-width: 800px;*/
   margin: 100px;
 }
 
@@ -540,8 +538,8 @@ a {
 }
 
 .icon img {
-  width: 50px; /* Adjust the width as needed */
-  height: 50px; /* Adjust the height as needed */
+  width: 50px;
+  height: 50px;
 }
 
 .footer-details {
@@ -554,9 +552,36 @@ a {
   bottom: 0;
   width: 100%;
 }
+.line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 100px 100px 100px;
+}
 
+#LineChart {
+  width: 700px;
+  height: 700px;
+}
 
+.line h1{
+  font-family: 'inter',sans-serif;
+  font-size: 22px;
+  color: #008080;
+  margin-bottom: 14px;
+  padding-left: 10px;
+}
 
+.line h2{
+  font-family: 'inter',sans-serif;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.line h3{
+  font-family: 'inter',sans-serif;
+  font-size: 14px;
+  padding-left: 10px;
+}
 
 
 
